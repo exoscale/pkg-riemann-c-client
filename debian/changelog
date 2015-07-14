@@ -1,0 +1,20 @@
+riemann-c-client (1.1.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Added libjson-c-dev to Build-Depends, so that the riemann-c-client
+    package builds with JSON support.
+
+ -- Gergely Nagy <algernon@madhouse-project.org>  Thu, 23 Jan 2014 17:24:13 +0100
+
+riemann-c-client (1.1.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Symbol file updated with new symbols.
+
+ -- Gergely Nagy <algernon@madhouse-project.org>  Sun, 22 Dec 2013 11:50:26 +0100
+
+riemann-c-client (1.0.2-1) unstable; urgency=low
+
+  * Initial release. (Closes: #728591)
+
+ -- Gergely Nagy <algernon@madhouse-project.org>  Sat, 23 Nov 2013 12:20:53 +0100
