@@ -1,3 +1,77 @@
+riemann-c-client (1.8.1-2build1) xenial; urgency=medium
+
+  * No-change rebuild for gnutls transition.
+
+ -- Matthias Klose <doko@ubuntu.com>  Wed, 17 Feb 2016 22:27:22 +0000
+
+riemann-c-client (1.8.1-2) unstable; urgency=medium
+
+  * Disable parallel build for now, to make sure the package builds
+    everywhere.
+
+ -- Gergely Nagy <algernon@madhouse-project.org>  Tue, 29 Sep 2015 12:05:16 +0200
+
+riemann-c-client (1.8.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Updated the symbol file with new symbols.
+  * Include the API docs in the -dev package.
+
+ -- Gergely Nagy <algernon@madhouse-project.org>  Mon, 28 Sep 2015 13:46:39 +0200
+
+riemann-c-client (1.7.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Forcibly enable TLS support, to make sure it is not off by accident.
+  * Updated the symbol file with new symbols.
+
+ -- Gergely Nagy <algernon@madhouse-project.org>  Mon, 04 May 2015 11:36:08 +0200
+
+riemann-c-client (1.6.1-1) experimental; urgency=low
+
+  * New upstream release.
+  * Updated the symbol file with new symbols.
+  * NEWS got renamed to NEWS.md, use that as the upstream changelog.
+
+ -- Gergely Nagy <algernon@madhouse-project.org>  Fri, 24 Apr 2015 10:30:58 +0200
+
+riemann-c-client (1.5.0-1) experimental; urgency=low
+
+  * New upstream release.
+  * Add libgnutls28-dev to Build-Depends, to include TLS support too.
+  * Updated the symbol file with new symbols.
+  * Bump Standards-Version to 3.9.6 (no changes necessary)
+
+ -- Gergely Nagy <algernon@madhouse-project.org>  Fri, 27 Mar 2015 16:32:42 +0100
+
+riemann-c-client (1.4.0-1) experimental; urgency=low
+
+  * New upstream release.
+  * Drop the ruby-ronn build dependency, the manual page was rewritten in
+    nroff, upstream.
+  * Updated the symbol file with new symbols.
+  * Copyright years updated in debian/copyright.
+  * Drop the documentation from libriemann-client-dev. A -doc package can
+    be introduced later, if need be.
+
+ -- Gergely Nagy <algernon@madhouse-project.org>  Tue, 17 Mar 2015 12:11:31 +0100
+
+riemann-c-client (1.2.0-2) unstable; urgency=medium
+
+  * Instead of libriemann-client-dev depending on libprotobuf-c0-dev,
+    depend on the appropriate version, determined at build time.
+
+ -- Gergely Nagy <algernon@madhouse-project.org>  Sat, 26 Jul 2014 23:35:10 +0200
+
+riemann-c-client (1.2.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Build-Depend on libprotobuf-c-dev libprotobuf-c0-dev, for the
+    protobuf-c transition and wheezy backportability.
+  * Update the copyright years in debian/copyright.
+
+ -- Gergely Nagy <algernon@madhouse-project.org>  Fri, 25 Jul 2014 16:02:27 +0200
+
 riemann-c-client (1.1.1-1~precise0+exo1) precise; urgency=medium
 
   * Backport to Precise.
