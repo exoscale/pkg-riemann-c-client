@@ -1,3 +1,9 @@
+riemann-c-client (1.8.1-2build2~precise0+exo1) precise; urgency=medium
+
+  * Backport to Precise.
+
+ -- Vincent Bernat <bernat@debian.org>  Mon, 07 Mar 2016 09:38:05 +0100
+
 riemann-c-client (1.8.1-2build1) xenial; urgency=medium
 
   * No-change rebuild for gnutls transition.
