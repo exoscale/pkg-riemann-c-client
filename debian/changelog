@@ -1,3 +1,9 @@
+riemann-c-client (1.8.1-2build2~precise0+exo2) precise; urgency=medium
+
+  * Fix dependency on libprotobuf-c0-dev for libriemann-client-dev.
+
+ -- Vincent Bernat <bernat@debian.org>  Tue, 29 Mar 2016 13:04:50 +0200
+
 riemann-c-client (1.8.1-2build2~precise0+exo1) precise; urgency=medium
 
   * Backport to Precise.
