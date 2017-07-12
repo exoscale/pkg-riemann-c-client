@@ -1,3 +1,9 @@
+riemann-c-client (1.8.1-2build2~bpo8+0+exo2) jessie-backports; urgency=medium
+
+  * Forward-port to Jessie.
+
+ -- Vincent Bernat <bernat@debian.org>  Wed, 12 Jul 2017 11:52:53 +0200
+
 riemann-c-client (1.8.1-2build2~precise0+exo2) precise; urgency=medium
 
   * Fix dependency on libprotobuf-c0-dev for libriemann-client-dev.
